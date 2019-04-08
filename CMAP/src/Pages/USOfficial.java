@@ -108,4 +108,9 @@ public class USOfficial extends CMAP_Homepage {
     	WebElement other = driver.findElement(By.name("ctl00$ctl00$ContentLayoutPlaceHolder$ContentPlaceHolderAdditionalControls$repeaterLevel2$ctl00$RadioButtonGroup"));
     	other.click();
     }
+    
+    public void OfficialDuumydata()
+    {
+    	System.out.println("USOfficial data run successfully");
+    }
 }
